@@ -29,7 +29,7 @@ inputs:
   title:
     description: 'The title of the pull request'
     required: false
-    default: "Pull Request for Repo: $GITHUB_REPOSITORY"
+    default: "Pull Request for Repo:  ${{ github.repository }}"
   body:
     description: 'The body of the pull request'
     required: false
